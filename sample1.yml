@@ -17,7 +17,6 @@ Resources:
         BlockPublicPolicy: True
         IgnorePublicAcls: True
         RestrictPublicBuckets: True
-
 Outputs:
   S3BucketName:
     Value: !Ref S3Bucket
